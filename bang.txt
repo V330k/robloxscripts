@@ -1,0 +1,309 @@
+-- made by veok
+
+local SimpleSexGUI = Instance.new("ScreenGui")
+
+local lblFUCKEMALL = Instance.new("TextLabel")
+
+local FGUI = Instance.new("Frame")
+
+local btnNaked = Instance.new("TextButton")
+
+local btnSex = Instance.new("TextButton")
+
+local tbxVictim = Instance.new("TextBox")
+
+local tbxSpeed = Instance.new("TextBox")
+
+local ImageLabel = Instance.new("ImageLabel")
+
+local lbltitle = Instance.new("TextLabel")
+
+local TextLabel = Instance.new("TextLabel")
+
+local speedbtn = Instance.new("TextButton")
+
+local btnDesUI = Instance.new("TextButton")
+
+local Btnspeed = Instance.new("TextButton")
+
+local btnsex2 = Instance.new("TextButton")
+
+-- extra stuff
+local roundy = Instance.new("UICorner")
+roundy.Parent = lbltitle
+local roundy2 = Instance.new("UICorner")
+
+--Properties
+
+SimpleSexGUI.Name = "SimpleSexGUI"
+SimpleSexGUI.Parent = game.CoreGui
+
+
+
+
+lbltitle.Name = "Title"
+lbltitle.Parent = SimpleSexGUI
+lbltitle.BackgroundColor3 = Color3.new(0.0627451, 0.0627451, 0.0627451)
+lbltitle.BorderSizePixel = 1
+lbltitle.ZIndex = 2
+lbltitle.Position = UDim2.new (0, 0,0.656, -2)
+lbltitle.Size = UDim2.new (0, 317,0, 33)
+lbltitle.Visible = true
+lbltitle.Active = true
+lbltitle.Draggable = true
+lbltitle.TextScaled = true
+lbltitle.Selectable = true
+lbltitle.Font = Enum.Font.SourceSansBold
+lbltitle.Text = "A Simple SEX GUI"
+lbltitle.TextColor3 = Color3.new(1, 1, 1)
+lbltitle.TextSize = 20
+
+
+btnDesUI.Name = "closeUI"
+btnDesUI.Parent = FGUI
+btnDesUI.BackgroundColor3 = Color3.new(1, 0, 0)
+btnDesUI.BorderSizePixel = 1
+btnDesUI.ZIndex = 2
+btnDesUI.Position = UDim2.new (0.921, 0,-0.052, 0)
+btnDesUI.Size = UDim2.new (0, 16,0, 15)
+btnDesUI.Visible = true
+btnDesUI.Active = true
+btnDesUI.Draggable = false
+btnDesUI.TextScaled = true
+btnDesUI.Selectable = true
+btnDesUI.Font = Enum.Font.SourceSansBold
+btnDesUI.Text = "X"
+btnDesUI.TextColor3 = Color3.new(1, 0, 0)
+btnDesUI.TextSize = 1
+
+
+
+
+FGUI.Name = "FGUI"
+FGUI.Parent = lbltitle
+FGUI.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+FGUI.BorderSizePixel = 1
+FGUI.Position = UDim2.new(0,0, 0.667, 0)
+FGUI.Size = UDim2.new(0,317, 0,271)
+FGUI.Draggable = true
+roundy:Clone().Parent = FGUI
+
+
+
+
+
+
+btnSex.Name = "Sex"
+btnSex.Parent = FGUI
+btnSex.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+btnSex.BorderSizePixel = 1
+btnSex.Position = UDim2.new (0.621, 0,0.129, 0)
+btnSex.Size = UDim2.new (0, 99,0, 31)
+btnSex.Visible = true
+btnSex.Active = true
+btnSex.TextScaled = true
+btnSex.Draggable = false
+btnSex.Selectable = true
+btnSex.Font = Enum.Font.SourceSansBold
+btnSex.Text = "Let's fuck!!"
+btnSex.TextColor3 = Color3.new(1, 1, 1)
+btnSex.TextSize = 20
+roundy:Clone().Parent = btnSex
+
+
+speedbtn.Name = "cloth"
+speedbtn.Parent = FGUI
+speedbtn.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+speedbtn.BorderSizePixel = 1
+speedbtn.Position = UDim2.new (0.618, 0,0.579, 0)
+speedbtn.Size = UDim2.new (0, 99,0, 31)
+speedbtn.Visible = true
+speedbtn.Active = true
+speedbtn.TextScaled = true
+speedbtn.Draggable = false
+speedbtn.Selectable = true
+speedbtn.Font = Enum.Font.SourceSansBold
+speedbtn.Text = "Remove clothes"
+speedbtn.TextColor3 = Color3.new(1, 1, 1)
+speedbtn.TextSize = 20
+roundy:Clone().Parent = speedbtn
+
+Btnspeed.Name = "speed"
+Btnspeed.Parent = FGUI
+Btnspeed.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+Btnspeed.BorderSizePixel = 1
+Btnspeed.Position = UDim2.new (0.618, 0,0.358, 0)
+Btnspeed.Size = UDim2.new (0, 99,0, 31)
+Btnspeed.Visible = true
+Btnspeed.Active = true
+Btnspeed.TextScaled = true
+Btnspeed.Draggable = false
+Btnspeed.Selectable = true
+Btnspeed.Font = Enum.Font.SourceSansBold
+Btnspeed.Text = "Change speed"
+Btnspeed.TextColor3 = Color3.new(1, 1, 1)
+Btnspeed.TextSize = 20
+roundy:Clone().Parent = Btnspeed
+
+btnsex2.Name = "Sex2"
+btnsex2.Parent = FGUI
+btnsex2.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+btnsex2.BorderSizePixel = 1
+btnsex2.Position = UDim2.new (0.139, 0,0.579, 0)
+btnsex2.Size = UDim2.new (0, 99,0, 31)
+btnsex2.Visible = true
+btnsex2.Active = true
+btnsex2.TextScaled = true
+btnsex2.Draggable = false
+btnsex2.Selectable = true
+btnsex2.Font = Enum.Font.SourceSansBold
+btnsex2.Text = "Get fucked"
+btnsex2.TextColor3 = Color3.new(1, 1, 1)
+btnsex2.TextSize = 20
+roundy:Clone().Parent = btnsex2
+
+
+tbxVictim.Name = "VictimTEXT"
+tbxVictim.Parent = FGUI
+tbxVictim.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+tbxVictim.BorderSizePixel = 1
+tbxVictim.Position = UDim2.new (0.022, 0,0.129, 0)
+tbxVictim.Size = UDim2.new (0, 174,0, 27)
+tbxVictim.Visible = true
+tbxVictim.Active = true
+tbxVictim.Text = ""
+tbxVictim.Draggable = false
+tbxVictim.Selectable = true
+tbxVictim.TextScaled = true
+tbxVictim.Font = Enum.Font.SourceSansBold
+tbxVictim.PlaceholderText = "[ NAME ]"
+tbxVictim.TextColor3 = Color3.new(1, 1, 1)
+tbxVictim.TextSize = 20
+roundy:Clone().Parent = tbxVictim
+
+
+tbxSpeed.Name = "SpeedTEXT"
+tbxSpeed.Parent = FGUI
+tbxSpeed.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+tbxSpeed.BorderSizePixel = 1
+tbxSpeed.Position = UDim2.new (0.025, 0,0.354, 0)
+tbxSpeed.Size = UDim2.new (0, 173,0, 27)
+tbxSpeed.Visible = true
+tbxSpeed.Active = true
+tbxSpeed.Draggable = false
+tbxSpeed.Selectable = true
+tbxSpeed.TextScaled = true
+tbxSpeed.Font = Enum.Font.SourceSansBold
+tbxSpeed.PlaceholderText = "[ Number ]"
+tbxSpeed.TextColor3 = Color3.new(1, 1, 1)
+tbxSpeed.Text = "1"
+roundy:Clone().Parent = tbxSpeed
+
+
+
+lblFUCKEMALL.Name = "FUCKEMALL"
+lblFUCKEMALL.Parent = FGUI
+lblFUCKEMALL.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+lblFUCKEMALL.BorderSizePixel = 0
+lblFUCKEMALL.Position = UDim2.new (0.025, 0,0.856, 0)
+lblFUCKEMALL.Size = UDim2.new (0, 301,0, 27)
+lblFUCKEMALL.Visible = true
+lblFUCKEMALL.TextScaled = true
+lblFUCKEMALL.Draggable = false
+lblFUCKEMALL.Font = Enum.Font.SourceSansBold
+lblFUCKEMALL.Text = "Works on R6 only"
+lblFUCKEMALL.TextColor3 = Color3.new(1, 1, 1)
+lblFUCKEMALL.TextSize = 20
+roundy:Clone().Parent = lblFUCKEMALL
+
+
+
+
+--Scripts
+local hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
+
+local stupid = Instance.new('Animation')
+
+stupid.AnimationId = 'rbxassetid://148840371'
+
+local stu =  Instance.new('Animation')
+
+stu.AnimationId = 'rbxassetid://9456533494'
+
+local notfunny = hummy:LoadAnimation(stupid)
+local notfunny2 = hummy:LoadAnimation(stu)
+
+
+btnSex.MouseButton1Click:Connect(function()
+
+	local player = tbxVictim.Text
+
+	if notfunny.IsPlaying == true then
+		notfunny:Stop()
+
+	else
+		notfunny:Play()
+		notfunny:AdjustSpeed(1)
+		while hummy.Parent.Parent ~= nil do
+			if notfunny.IsPlaying == false then return end
+				wait()
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[tbxVictim.Text].Character.HumanoidRootPart.CFrame
+			
+		end
+	end
+
+
+
+
+
+end)
+
+
+
+btnsex2.MouseButton1Click:Connect(function()
+
+
+	if notfunny2.IsPlaying == true then
+		notfunny2:Stop()
+
+
+	else
+		notfunny2:Play()
+		notfunny2:AdjustSpeed(1);
+		while hummy.Parent.Parent ~= nil do
+
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[tbxVictim.Text].Character.HumanoidRootPart.CFrame
+		end
+	end
+
+
+
+
+
+end)
+
+Btnspeed.MouseButton1Click:Connect(function()
+	notfunny:AdjustSpeed(tbxSpeed.Text);
+end)
+
+speedbtn.MouseButton1Click:Connect(function()
+
+	local player = tbxVictim.Text
+
+	local hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
+	pcall(function()
+		hummy.Parent.Pants:Destroy()
+	end)
+	pcall(function()
+		hummy.Parent.Shirt:Destroy()
+	end)
+end)
+
+btnDesUI.MouseButton1Click:Connect(function()
+	SimpleSexGUI:Destroy()
+end)
+
+tbxSpeed:GetPropertyChangedSignal("Text"):Connect(function()
+	tbxSpeed.Text = tbxSpeed.Text:gsub('%D+', '');
+end)
